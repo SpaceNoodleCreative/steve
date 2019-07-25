@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Steve</title>
+    <style>
+        body {text-align: center; padding-top: 10%;}
+        div {display: inline-block;}
+        .box { min-width: 300px; min-height: 260px; border: 10px dashed #ddd; padding: 35px 40px; position: relative;}
+        .torso-wrap {height: 230px; overflow: hidden; }
+        .torso { width: 500px; height: 430px; border-radius: 250px / 200px; background: #51AC51;}
+        .legs {display: block; margin-top: -5px;}
+        .leg { width: 90px; height: 80px; background: #51AC51;}
+        .left {border-left: 3px solid #378737; margin-left: -40px; height: 85px; margin-bottom: -6px;}
+        .front {float: left; width: 50%; text-align: left;}
+        .back {float: left; width: 50%; text-align: right;}
+        .clear {display: block; clear: both;}
+        .tail { position: absolute; top: 68px; left: 326px; height: 116px; width: 360px; border: 57px solid transparent; box-sizing: border-box; border-left: 360px solid #51AC51; transform: rotate(9.3deg); border-top-left-radius: 58px;}
+        .neck { position: absolute; top: 10px; left: -205px; height: 116px; width: 250px; border: 40px solid transparent; box-sizing: border-box; border-right: 270px solid #51AC51; transform: rotate(35deg); }
+        .head { position: absolute; top: 0; left: -196px; width: 160px; height: 100px; border-radius: 80px / 50px; background: #51AC51;}
+        .eye { width: 13px; height: 13px; background: #304B30; border-radius: 20px; margin-left: -25px;}
+        h1 {  font-family: Courier; font-size: 50px; color: #378737; margin-top: 35px; margin-bottom: 35px;}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="torso-wrap">
+            <div class="torso"></div>
+        </div>  
+        <div class="legs">
+            <div class="front">
+                <div class="leg">
+                </div>    
+                <div class="leg left">
+                </div>    
+            </div>  
+            <div class="back">  
+                <div class="leg">
+                </div>    
+                <div class="leg left">
+                </div>    
+            </div> 
+            <div class="clear"></div>   
+        </div> 
+        <div class="neck"></div>  
+        <div class="tail"></div>  
+        <div class="head">
+            <div class="eye"></div>
+        </div>
+    </div> 
+    <h1>Cssaurus Steve</h1>   
+</body>
+</html>
